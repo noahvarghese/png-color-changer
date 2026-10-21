@@ -2,7 +2,7 @@
 
 Takes an image(s) and a hex color as input
 Determines how many unique colors exist in that image given a user defined threshold.
-Creates a new shade of the input color for each of the unique colors found in the source image by converting from RGB to HSV and adjusting the value/brightness. 
+Creates a new shade of the input color for each of the unique colors found in the source image by converting from RGB to HSV and adjusting the value/brightness.
 Outputs a new image.
 
 ## Development
@@ -24,3 +24,11 @@ Outputs a new image.
 - `-c` a hex color that will replace all colors in the image
 - `-p` the path to the source image, or directory
 - `-t` the numeric range of what constitutes a color. directly affects the amount of detail output.
+
+### Input
+
+![input](./demo/bay-bow.png)
+
+### Output
+
+![output](./demo/bay-bow_modified.png)

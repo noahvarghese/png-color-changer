@@ -2,3 +2,4 @@ output/*
 !output/.keep
 test/*_modified*
 .vscode
+./png-color-changer
